@@ -140,8 +140,8 @@ main {
 .flex-item {
   border: 5px solid var(--crimson);
   color: white;
-  min-height: 150px;
-  max-height: 150px;
+  min-height: 400px;
+  max-height: 400px;
   flex-basis: calc(50% - 1em);
   display: flex;
   align-items: flex-end;
@@ -192,6 +192,13 @@ main {
   background-image: url("../images/weather.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.project-1-img {
+  background-image: url("../images/weather\ gif.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 
