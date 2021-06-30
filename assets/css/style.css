@@ -201,6 +201,11 @@ main {
   
 }
 
+.pw-img {
+  background-image: url(../images/pw-generator.png);
+  background-size: cover;
+}
+
 
 @media screen and (max-width: 980px) {
   header {
