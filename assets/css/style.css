@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: var(--yellow-orange);
+  background-color: whitesmoke
   color: var(--crimson);
   line-height: 1.5;
 }
@@ -32,7 +32,10 @@ p {
 }
 
 header {
-  padding: 10px 6% 10px 0;
+  background-image: url(../images/hero.jpg);
+  background-size: 100%;
+  background-position: auto;
+  padding: 50px 6% 100px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -77,20 +80,6 @@ main {
   margin-top: 20px;
   margin-bottom: 45px;
 }
-
-.hero-banner {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 30vh;
-  padding: 2% 6%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
-
-}
-
 .hero-banner div {
   flex: 0 0 90%;
 }
