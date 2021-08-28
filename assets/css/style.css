@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Major Mono Dsiplay'
   background-color: whitesmoke
   color: var(--crimson);
   line-height: 1.5;
@@ -46,9 +46,10 @@ header {
 }
 
 header h1 {
-  color: white;
+  color: black;
   margin: 0;
   font-size: 3.5vw;
+  font-weight: bolder;
   line-height: 1;
 }
 
@@ -105,7 +106,7 @@ main {
   text-align: right;
   padding-right: 15px;
   border-right: 10px solid var(--crimson);
-  font-size: 3.5vw;
+  font-size: 2vw;
   line-height: 1.1;
 }
 
@@ -115,8 +116,8 @@ main {
 
 .page-section p {
   margin-bottom: 20px;
-  background-color: var(--crimson);
-  color: white;
+  background-color: whitesmoke;
+  color: black;
   font-size: 1.6rem;
 }
 
@@ -164,12 +165,12 @@ main {
 }
 
 .contact address a {
-  color: white;
-  background-color: var(--crimson);
+  color: black;
   padding: 5px;
   text-decoration: none;
   font-size: 1.3rem;
-  font-style: normal;
+  font-style:normal;
+  font-weight: bolder;
 }
 
 
@@ -193,6 +194,12 @@ main {
 .pw-img {
   background-image: url(../images/pw-generator.png);
   background-size: cover;
+  background-position: center;
+}
+
+.board-game {
+  background-image:url("../images/board-game.png");
+  background-size: cover;
 }
 
 
@@ -201,6 +208,7 @@ main {
     padding: 0 0 10px 0;
     justify-content: center;
     text-align: center;
+    background-repeat: no-repeat;
   }
 
   header h1 {
